@@ -1,7 +1,7 @@
 === Admin Collapse Subpages ===
 Contributors: lupka , bravokeyl
 Donate link: http://alexchalupka.com/donate
-Tags: random, posts, widget, categories, date, date range, timeframe, excerpt, randomize, sidebar, category
+Tags: page, post, links,pages, plugin, random, posts, widget, categories, date, date range, timeframe, excerpt, randomize, sidebar, category
 Requires at least: 3.0
 Tested up to: 3.8.1
 Stable tag: trunk
