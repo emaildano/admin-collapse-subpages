@@ -18,6 +18,12 @@ This is loosely based on Collapse Sub-Pages by Dan Dietz, which broke with the 3
 
 Because this is a jQuery, it's possible that they could make additional changes that would break it. I'll do my best to stay on top of it, but let me know if it stops working.
 
+What's new in Version 2.0 ?
+
+1)Fix en-queuing of scripts .
+2)Expand all , Collapse all links appear only on the pages list not on every list (like plugins ,posts etc.,)
+3)Updated jQuery.cookie.js to 1.4.0
+
 == Installation ==
 
 1. Download, unzip, and upload the 'admin-collapse-subpages' folder along with all its files to the '/wp-content/plugins/'' directory.
