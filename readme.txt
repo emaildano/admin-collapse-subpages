@@ -1,12 +1,14 @@
 === Admin Collapse Subpages ===
-Contributors: lupka
+Contributors: lupka , bravokeyl
 Donate link: http://alexchalupka.com/donate
 Tags: random, posts, widget, categories, date, date range, timeframe, excerpt, randomize, sidebar, category
 Requires at least: 3.0
-Tested up to: 3.2.1
+Tested up to: 3.8.1
 Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-jQuery-powered plugin that allows expansion/collapse of subpages within pages admin (/edit.php?post_type=page) menu.
+Using this plugin one can easily collapse/expand pages with children and grand children.
 
 == Description ==
 
@@ -18,7 +20,7 @@ Because this is a jQuery, it's possible that they could make additional changes 
 
 == Installation ==
 
-1. Download, unzip, and upload the `random-posts-within-date-range-widget` folder along with all its files to the `/wp-content/plugins/` directory.
+1. Download, unzip, and upload the 'admin-collapse-subpages' folder along with all its files to the '/wp-content/plugins/'' directory.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Visit your Pages admin page and notice the lovely +/- buttons.
 
@@ -41,7 +43,14 @@ I'd recommend not using Quick Edit to change parent/child pages at all. It often
 = 1.0 =
 * Initial version of the plugin
 
+= 2.0 =
+* Fixed bug - Adding expand/collapse links to all list tables
+* Updated jquery.cookie.js to 1.4.0
+* Enhanced loading of scripts and styles 
+
 == Upgrade Notice ==
 
 = 1.0 =
 * N/A
+= 2.0 =
+* Enjoy !!
