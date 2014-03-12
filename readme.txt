@@ -14,7 +14,7 @@ Using this plugin one can easily collapse/expand pages with children and grand c
 
 Simple plugin that allows you to collapse subpages in the Pages admin list. Especially helpful if you have a ton of pages. It uses a cookie to save the expand/collapse status of your pages.
 
-This is loosely based on Collapse Sub-Pages by Dan Dietz (http://wordpress.org/extend/plugins/collapse-sub-pages/), which broke with the 3.0 upgrade due to UI changes and hasn't been updated. I've had to rewrite the jQuery to make it work with 3.x versions. 
+This is loosely based on Collapse Sub-Pages by Dan Dietz, which broke with the 3.0 upgrade due to UI changes and hasn't been updated. I've had to rewrite the jQuery to make it work with 3.x versions. 
 
 Because this is a jQuery, it's possible that they could make additional changes that would break it. I'll do my best to stay on top of it, but let me know if it stops working.
 
