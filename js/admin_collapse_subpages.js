@@ -2,7 +2,7 @@
  * Collapse Sub Pages
  */
  
-jQuery().ready(function(){
+jQuery().ready(function($){
 
 
 	var links ='<li class="expand_all_link"> | <a href="javascript:void(0);">Expand All</a></li><li class="collapse_all_link"> | <a href="javascript:void(0);">Collapse All</a></li>';
@@ -184,7 +184,7 @@ jQuery().ready(function(){
 	 */	
 	 function add_to_cookie(row_id)
 	 {
-	 	var cookie = jQuery.cookie('collapsed');
+	 	var cookie = $.cookie('collapsed');
 	 	var values;
 	 	
 		if(cookie){		
@@ -195,7 +195,7 @@ jQuery().ready(function(){
 			values = new Array(row_id);		
 		}	 	
 		
-		jQuery.cookie('collapsed',values);
+		$.cookie('collapsed',values);
 		
 	 }
 
@@ -204,7 +204,7 @@ jQuery().ready(function(){
 	 */		 
 	 function remove_from_cookie(row_id)
 	 {
-	 	var cookie = jQuery.cookie('collapsed');
+	 	var cookie = $.cookie('collapsed');
 	 	var values;
 	 	
 		if(cookie){		
@@ -214,7 +214,7 @@ jQuery().ready(function(){
         		return value != row_id;
       		});	
       		
- 			jQuery.cookie('collapsed',values);
+ 			$.cookie('collapsed',values);
 		     		
 		}	  
 	 }
@@ -224,7 +224,7 @@ jQuery().ready(function(){
 	 */		 	
 	function collapse_from_cookie()
 	{
-	 	var cookie = jQuery.cookie('collapsed');
+	 	var cookie = $.cookie('collapsed');
 	 	var values;
 	 	
 		if(cookie){		
