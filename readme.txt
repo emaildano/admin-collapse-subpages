@@ -63,3 +63,5 @@ I'd recommend not using Quick Edit to change parent/child pages at all. It often
 * Enjoy !!
 = 2.1 =
 * Added support custom post types which are hieararchial
+= 2.1 =
+* Added support custom post types which are hieararchial
