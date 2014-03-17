@@ -12,7 +12,7 @@ Using this plugin one can easily collapse/expand pages with children and grand c
 
 == Description ==
 
-Simple plugin that allows you to collapse subpages in the Pages admin list. Especially helpful if you have a ton of pages. It uses a cookie to save the expand/collapse status of your pages.
+Simple plugin that allows you to collapse subpages in the Pages admin list also for custom post types that are heirarchial. Especially helpful if you have a ton of pages /cpt's with heiararchial set to true. It uses a cookie to save the expand/collapse status of your pages.
 
 This is loosely based on Collapse Sub-Pages by Dan Dietz, which broke with the 3.0 upgrade due to UI changes and hasn't been updated. I've had to rewrite the jQuery to make it work with 3.x versions. 
 
@@ -53,10 +53,13 @@ I'd recommend not using Quick Edit to change parent/child pages at all. It often
 * Fixed bug - Adding expand/collapse links to all list tables
 * Updated jquery.cookie.js to 1.4.0
 * Enhanced loading of scripts and styles 
-
+= 2.1 =
+* Added support custom post types which are hieararchial
 == Upgrade Notice ==
 
 = 1.0 =
 * N/A
 = 2.0 =
 * Enjoy !!
+= 2.1 =
+* Added support custom post types which are hieararchial
