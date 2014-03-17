@@ -9,7 +9,7 @@ jQuery().ready(function($){
 	/*
 	 * Add Expand/Collapse ALL Links to DOM (has to be first for listeners)
 	 */
-	jQuery(' .acs-heir .subsubsub').append(links);	
+	jQuery(' .acs-hier .subsubsub').append(links);	
 
 	/*
 	 * Initial loading

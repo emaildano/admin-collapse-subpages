@@ -5,7 +5,7 @@
 	Description: Using this plugin one can easily collapse/expand pages / custom post types with children and grand children.
 	Author: Alex Chalupka
 	Author URI: http://alexchalupka.com/
-	Version: 2.1
+	Version: 2.1.0
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
