@@ -1,6 +1,6 @@
 {
   "name": "emaildano/wp-collapse",
-  "description": "WordPress admin plugin for collapsing child pages.",
+  "description": "WordPress plugin for collapsing child pages.",
   "keywords": ["wordpress", "plugin", "pages", "collapse"],
   "homepage": "https://github.com/emaildano/wp-collapse",
   "license": "GPLv2 or later",
