@@ -1,11 +1,11 @@
 <?php
 /*
   Plugin Name: WP Collapse
-  Plugin URI: #
-  Description: 
+  Plugin URI: https://github.com/emaildano/wp-collapse
+  Description: WordPress plugin for collapsing child pages.
   Author: Daniel Olson
-  Author URI: #
-  Version: 0.1
+  Author URI: https://github.com/emaildano
+  Version: 3.0.0
   License: GPLv2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
